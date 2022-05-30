@@ -24,7 +24,7 @@ const valid_url = require('valid-url');
   app.use(morgan(config.morgan.format));
 
   // @TODO1 IMPLEMENT A RESTFUL ENDPOINT
-  // GET /filteredimage?image_url={{URL}}
+  // GET /imagefilter?image_url={{URL}}
   // endpoint to filter an image from a public url.
   // IT SHOULD
   //  1.1. Check the image_url query parameter
